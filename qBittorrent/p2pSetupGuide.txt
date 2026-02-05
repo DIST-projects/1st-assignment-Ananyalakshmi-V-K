@@ -1,0 +1,26 @@
+﻿P2P setup guid
+
+
+Primary System (Windows – Seeder)
+    1. Follow these steps to create and seed the torrent file:
+    2. Open the torrent client.
+    3. Navigate to Tools → Create Torrent File.
+    4. In the new window, select the text file that needs to be transferred.
+    5. Enable the option “Start seeding immediately”.
+    6. Add the tracker URL in the tracker field.
+    7. Click Create Torrent.
+    8. The torrent file will now be created and will start seeding automatically.
+    9. Share/send the generated .torrent file to the secondary system.
+       
+Secondary System (Linux – Leecher)
+    1. Follow these steps to download the file from the primary system:
+    2. Open the torrent client.
+    3. Click File → Add Torrent File.
+    4. Select the received .torrent file.
+    5. Choose the target download folder.
+    6. Manually add the peer:
+    7. Obtain the IPv4 address and port number of the primary (Windows) system.
+    8. Paste this information into the Add Peer option.
+    9. The file will begin downloading into the selected target folder.
+    10. After the download is complete, right-click the torrent and select Recheck Files to verify file integrity.
+    11. Once verified, the secondary system can also act as a seeder.
