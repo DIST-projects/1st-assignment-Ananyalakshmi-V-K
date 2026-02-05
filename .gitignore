@@ -1,0 +1,20 @@
+# Compiled files
+*.class
+*.pyc
+__pycache__/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Mac files
+.DS_Store
+
+# AWS credentials (NEVER commit these)
+*.pem
+*.ppk
+aws-credentials.txt
+
+# Logs (optional - you might want to commit sample logs)
+*.log
